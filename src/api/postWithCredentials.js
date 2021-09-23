@@ -26,6 +26,6 @@ export const postWithCredentials = async (url, bodyData) => {
     }
   } catch (error) {
     console.log(error);
-    return [];
+    return null;
   }
 };
